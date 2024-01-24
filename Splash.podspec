@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.7'
   s.default_subspec = "Core"
   s.cocoapods_version = '>= 1.5.0'
-  s.source_files  = "Splash/Sources/**/*.{h,m,swift}"
+  s.source_files  = "Sources/**/*.{h,m,swift}"
 end
