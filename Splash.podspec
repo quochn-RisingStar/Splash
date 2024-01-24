@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.authors = "JohnSundell"
   s.ios.deployment_target = "14.0"
-  s.source = { :git => "https://github.com/quochn-RisingStar/Splash" }
+  s.source = { :git => "https://github.com/quochn-RisingStar/Splash"}
   s.swift_version = '5.7'
   s.cocoapods_version = '>= 1.5.0'
   s.source_files  = "Splash/Sources/**/*.{h,m,swift}"
