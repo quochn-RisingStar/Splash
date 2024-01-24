@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/quochn-RisingStar/Splash"}
   s.swift_version = '5.7'
   s.cocoapods_version = '>= 1.5.0'
-  s.source_files  = "Splash/Sources/**/*.{h,m,swift}"
+  s.source_files  = ["Sources/**/*.swift"]
 end
