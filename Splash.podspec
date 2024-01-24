@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "14.0"
   s.source = { :git => "https://github.com/quochn-RisingStar/Splash" }
   s.swift_version = '5.7'
-  s.default_subspec = "Core"
+  s.default_subspec = "Sources"
   s.cocoapods_version = '>= 1.5.0'
   s.source_files  = "Sources/**/*.{h,m,swift}"
 end
